@@ -1,0 +1,258 @@
+{
+  "statistics": {}, 
+  "mod-ctrl": {
+    "c-1": {
+      "Lim-1": {
+        "msrin": "", 
+        "name": "\u9650\u5e45\u5668", 
+        "thutype": "ctrl", 
+        "ctrlin": "", 
+        "msrout": "", 
+        "ctrlable": 0, 
+        "sym": "Lim", 
+        "msroutput": "", 
+        "ctrlout": "", 
+        "param": [
+          {
+            "value": "1", 
+            "unit": "", 
+            "label": "max"
+          }, 
+          {
+            "value": "0", 
+            "unit": "", 
+            "label": "min"
+          }
+        ], 
+        "pin": {
+          "1": {
+            "node": 19, 
+            "id": 0, 
+            "label": ""
+          }, 
+          "0": {
+            "node": 20, 
+            "id": 0, 
+            "label": "nEm-1"
+          }
+        }, 
+        "type": 14, 
+        "id": 26, 
+        "ctrlby": ""
+      }
+    }
+  }, 
+  "displaygroup": [], 
+  "ctrl": {}, 
+  "msr": {}, 
+  "ele": {
+    "C-2": {
+      "msrin": "", 
+      "name": "\u7535\u5bb9", 
+      "thutype": "ele", 
+      "ctrlin": "", 
+      "type": 3, 
+      "ctrlable": 0, 
+      "sym": "C", 
+      "msroutput": "", 
+      "ctrlout": "", 
+      "param": [
+        {
+          "unit": "\u03bcF", 
+          "value": "1", 
+          "label": "C"
+        }
+      ], 
+      "pin": {
+        "1": {
+          "node": 0, 
+          "id": 15, 
+          "label": ""
+        }, 
+        "0": {
+          "node": 2, 
+          "id": 14, 
+          "label": ""
+        }
+      }, 
+      "msrout": "", 
+      "id": 35, 
+      "ctrlby": ""
+    }, 
+    "C-1": {
+      "msrin": "", 
+      "name": "\u7535\u5bb9", 
+      "thutype": "ele", 
+      "ctrlin": "", 
+      "type": 3, 
+      "ctrlable": 0, 
+      "sym": "C", 
+      "msroutput": "", 
+      "ctrlout": "", 
+      "param": [
+        {
+          "unit": "\u03bcF", 
+          "value": "1", 
+          "label": "C"
+        }
+      ], 
+      "pin": {
+        "1": {
+          "node": 1, 
+          "id": 9, 
+          "label": ""
+        }, 
+        "0": {
+          "node": 0, 
+          "id": 8, 
+          "label": ""
+        }
+      }, 
+      "msrout": "", 
+      "id": 35, 
+      "ctrlby": ""
+    }
+  }, 
+  "mod-ele": {
+    "c-1": {
+      "R-2": {
+        "msrin": "", 
+        "name": "\u7535\u963b", 
+        "thutype": "ele", 
+        "ctrlin": "", 
+        "msrout": "", 
+        "ctrlable": 0, 
+        "sym": "R", 
+        "msroutput": "", 
+        "ctrlout": "", 
+        "param": [
+          {
+            "value": "1", 
+            "unit": "\u03a9", 
+            "label": "R"
+          }
+        ], 
+        "pin": {
+          "1": {
+            "node": 2, 
+            "id": 17, 
+            "label": ""
+          }, 
+          "0": {
+            "node": 9, 
+            "id": 16, 
+            "label": ""
+          }
+        }, 
+        "type": 1, 
+        "id": 36, 
+        "ctrlby": ""
+      }, 
+      "R-1": {
+        "msrin": "", 
+        "name": "\u7535\u963b", 
+        "thutype": "ele", 
+        "ctrlin": "", 
+        "msrout": "", 
+        "ctrlable": 0, 
+        "sym": "R", 
+        "msroutput": "", 
+        "ctrlout": "", 
+        "param": [
+          {
+            "value": "1", 
+            "unit": "\u03a9", 
+            "label": "R"
+          }
+        ], 
+        "pin": {
+          "1": {
+            "node": 8, 
+            "id": 6, 
+            "label": ""
+          }, 
+          "0": {
+            "node": 1, 
+            "id": 5, 
+            "label": ""
+          }
+        }, 
+        "type": 1, 
+        "id": 36, 
+        "ctrlby": ""
+      }, 
+      "C-1": {
+        "msrin": "", 
+        "name": "\u7535\u5bb9", 
+        "thutype": "ele", 
+        "ctrlin": "", 
+        "msrout": "", 
+        "ctrlable": 0, 
+        "sym": "C", 
+        "msroutput": "", 
+        "ctrlout": "", 
+        "param": [
+          {
+            "value": "1", 
+            "unit": "\u03bcF", 
+            "label": "C"
+          }
+        ], 
+        "pin": {
+          "1": {
+            "node": 9, 
+            "id": 11, 
+            "label": ""
+          }, 
+          "0": {
+            "node": 8, 
+            "id": 10, 
+            "label": ""
+          }
+        }, 
+        "type": 3, 
+        "id": 35, 
+        "ctrlby": ""
+      }
+    }
+  }, 
+  "meta": {
+    "date": "2015_11_24_21_20_02", 
+    "description": "description", 
+    "author": "author"
+  }, 
+  "meters": {}, 
+  "mod-msr": {
+    "c-1": {
+      "nEm-1": {
+        "msrin": "c-1.C-1", 
+        "name": "\u5bf9\u5730\u7535\u538b", 
+        "thutype": "msr", 
+        "ctrlin": "", 
+        "msrout": "", 
+        "ctrlable": 0, 
+        "sym": "nEm", 
+        "msroutput": 20, 
+        "ctrlout": "", 
+        "param": [
+          {
+            "value": "0", 
+            "unit": "0", 
+            "label": "0"
+          }
+        ], 
+        "pin": {
+          "0": {
+            "node": 13, 
+            "id": 26, 
+            "label": ""
+          }
+        }, 
+        "type": 202, 
+        "id": 34, 
+        "ctrlby": ""
+      }
+    }
+  }, 
+  "simulation": {}
+}

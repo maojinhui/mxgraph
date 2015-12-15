@@ -1,0 +1,369 @@
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  font-family:'Microsoft YaHei','WenQuanYi Zen Hei','sans-serif';
+  font-size:14px;
+  background-color:#fff;
+  overflow:hidden;
+}
+.text-left{ text-align:left }
+.text-right{ text-align:right }
+.text-center{ text-align:center; }
+.pull-right{ float:right; }
+
+
+.app-mask{}
+
+input{
+width:100%
+}
+button{
+font-family:font-family:'Microsoft YaHei','WenQuanYi Zen Hei','sans-serif';
+}
+/*input{width:100%}*/
+.cloudpss{
+  display:inline-block;
+  padding:0 20px;
+  color:#7A3FA6;
+  font-size:1.3em;
+  line-height:40px;
+  text-decoration:none;
+}
+.menubar{
+  height:40px;
+  border-bottom:2px solid #7A3FA6;
+  
+/*
+  transition:background .1s linear;
+*/
+}
+.menubar:hover{
+/*
+  background-color:#BC61FF;
+*/
+
+}
+
+.h-menu{
+  display:inline-block;
+  margin:0;
+  padding:0 20px;
+  line-height:40px;
+  list-style:none;
+}
+.h-menuitem{
+  display:inline-block;
+  position:relative;
+  margin:0 10px;
+  padding:0 8px;
+  height:42px;
+  top:-2px;
+  line-height:40px;
+  cursor:pointer;
+}
+.h-menuitem:hover{
+  color:#fff;
+  background-color:#BC61FF;
+}
+.h-menuitem:hover .dropdown-menu{
+  display:block;
+  color:#000;
+}
+
+.dropdown-menu{
+  display:none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:38px;
+  left:0;
+  width:120px;
+  background-color:#fff;
+  list-style:none;
+  z-index:10;
+}
+.drop-item{
+  padding:6px 12px;
+  line-height:20px;
+  height:20px;
+  border-bottom:1px solid #BFBFBF;
+  cursor:pointer;
+  background-color:#fff;
+}
+.drop-item:hover{
+  background-color:#BC61FF;
+  color:#fff;
+}
+.drop-item span{
+  padding:0 5px;
+  visibility:hidden;
+}
+.shown span{visibility:visible}
+
+.main-editor{
+  width:100%;
+  height:100%;
+  background-image:url('/static/workbench/img/grid.gif');
+}
+
+
+
+.pagi{
+  display:inline-block;
+  width:48%;  
+  text-align:center;
+  cursor:pointer;
+  font-weight:bold;
+  color:#B434B4;
+  font-size:1.2em;
+ 
+/*
+ transition:background .1s ease; 
+*/
+}
+.pagi:hover{
+/*
+  background-color:#B434B4;
+*/
+  color:#1A1A1A;
+}
+/*********************面板中的样式***************************/
+.comp-con{
+  padding:3px 6px;
+  text-align:left;
+}
+.list{
+  marign:0;
+  padding:0;
+  list-style:none;
+    text-align:center;
+}
+.comp-con input,.list select{
+    box-sizing:border-box;
+    margin-top:6px;
+    width:100%;
+    font-size:12px;
+    padding:3px;
+    border:1px solid #BFBFBF;
+    background-color:#fff;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
+.param-inpt{
+  resize:none;
+  width:100%;
+  border:1px solid #BFBFBF;
+
+box-sizing:border-box;
+padding:3px;
+line-height:14px;
+height:24px;
+font-size:14px;
+
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
+
+
+.component-item{
+  display:inline-block;
+  position:relative;
+  width:46px;
+  height:46px;
+/*
+  float:left;
+*/
+  padding:1px;
+  box-sizing:border-box;
+  margin-top:2px;
+  margin-left:2px;
+  border:1px solid #BFBFBF;
+  cursor:pointer;
+  background-color:#fff;
+}
+.component-item img{
+  width:40px;
+  height:40px;
+}
+
+.component-item:hover{
+  border:1px solid #808080;
+  background-color:#fff;
+}
+
+
+
+/*** 设置仿真参数的样式  ***/
+
+.simu-param{
+  padding:3px 6px;
+}
+.simu-paramtbl{
+  table-layout:fixed;
+  width:100%;
+}
+.simu-paramtbl td{
+  padding:3px;
+}
+.param-inpt{
+
+  width:100%;
+}
+
+
+
+/*** 信息类型  ***/
+
+.info{
+  color:#3357FF;
+}
+.warning{
+  color:#FFA500;
+}
+.error{
+  color:#FF3600;
+}
+.info-content{
+  text-indent:2em;
+  border-bottom:1px solid #808080;
+}
+
+/*** 仿真结果 ***/
+.dspgrp-head{
+  margin:0 5px;
+  padding:2px 3px;
+  cursor:pointer;
+  
+  transition:backgroun .1s linear;
+}
+.dspgrp-current{background-color:#C01EB5;color:#fff;}
+.dspgrp-head:hover{
+  background-color:#C01EB5;
+  color:#fff;
+}
+
+.operate{
+  padding:8px 10px;
+}
+.btn{
+  padding:3px 12px;
+/*
+  border:1px solid #4D4D4D;
+*/
+  border-radius:3px;
+  cursor:pointer;
+  color:#fff;
+  /*7A3FA6*/
+}
+/*
+.btn:hover{
+  color:#fff;
+  background-color:#7A3FA6;
+}
+*/
+.btnsave{ background-color:#00b0e6; }
+.btnsave:hover{ background-color:#00C3FF; }
+.btncancel{ background-color:#BFBFBF; }
+.btncancel:hover{ background-color:#B3B3B3; }
+.btnadd{ background-color:#00af62; }
+.btnadd:hover{ background-color:#00CC72; }
+.btnclose{ background-color:#fa5091; }
+.btnclose:hover{ background-color:#FA649D; }
+/*** 结果显示 ***/
+#id_chart{
+    position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  
+}
+.chart-con{
+/*
+    display:none;
+*/
+
+position:relative;
+  width:100%;
+  height:auto;
+  background-color:#fff;
+  z-index:0;
+
+}
+.folder{
+  width:100%;
+}
+.chart-current{
+
+/*
+height:auto;
+*/
+z-index:10;
+
+/*
+    display:block;
+*/
+/*
+    height:300px;
+*/
+}
+
+
+/** 弹出，参数设置 **/
+.paramPrompt{
+  padding:6px 16px;
+  text-align:center;
+}
+.paramPrompt button{
+  margin-bottom:10px;
+}
+.txtlft{
+  padding-left:2em;
+  text-align:left
+}
+
+.PARAMdiv{
+  table-layout:fixed;
+  width:100%;
+}
+.PARAMdiv td:first-child{
+  width:5em;
+}
+.PARAMdiv td:last-child{
+  width:5em;
+}
+.PINsdiv{
+  text-align:center;
+}
+
+
+
+.param-input{
+margin-top:8px;
+width:200px;
+box-sizing:border-box;
+padding:3px;
+line-height:14px;
+height:25px;
+font-size:14px;
+border:1px solid #BFBFBF;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
+
+
+.mod-vnav{
+    margin:0 5px;
+    padding:3px;
+    cursor:pointer;
+}
+.mod-vnav:hover{color:#0688E8}
+
+.grey{
+    color:#B3B3B3
+}
